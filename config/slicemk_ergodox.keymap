@@ -15,8 +15,8 @@
     &kp CAPS   &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SCLN   &kp RET
     &mo LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B      &mo LCMD   &kp M_VOLU &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH   &mo RSHFT
     &mo LCTRL  &kp GRAV   &kp LALT   &kp LARW   &kp RARW                                               &kp UARW   &kp DARW   &kp LBKT   &kp RBKT   &mo RCTL
-                                                           &kp DEL    &kp HOME   &kp END    &kp INS
-                                                                      &kp PGUP   &kp PGDN
+                                                           &kp TAB    &kp KP_NUMLOCK  &mo 1 &kp INS
+                                                                      &kp PGUP        &kp PGUP
                                                 &kp SPC    &kp LCTL                         &kp LSFT   &kp RET
                                                                       &kp LGUI   &mo 1
                         >;
