@@ -10,15 +10,15 @@
                 layer_0 {
                         bindings = <
     &bootloader
-    &kp ESC    &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6  &none      &kp NUM_6  &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp NUM_0  &kp BACKSPACE
-    &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp NUM_7  &kp M_MUTE &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BSLH
-    &kp CAPS   &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SCLN   &kp RET
-    &mo LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B      &mo LCMD   &kp M_VOLU &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH   &mo RSHFT
-    &mo LCTRL  &kp GRAV   &kp LALT   &kp LARW   &kp RARW                                               &kp UARW   &kp DARW   &kp LBKT   &kp RBKT   &mo RCTL
-                                                           &kp TAB    &kp KP_NUMLOCK  &mo 1 &kp INS
+    &kp ESC    &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6       &none        &kp NUM_6  &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp NUM_0  &kp BACKSPACE
+    &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp NUM_7       &kp M_MUTE   &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BSLH
+    &kp CAPS   &kp A      &kp S      &kp D      &kp F      &kp G                                   &kp H      &kp J      &kp K      &kp L      &kp SCLN   &kp RET
+    &mo LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B      &mo LCMD        &kp M_VOLU   &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH   &mo RSHFT
+    &mo LCTRL  &kp GRAV   &kp LALT   &kp LARW   &kp RARW                                                      &kp UARW   &kp DARW   &kp LBKT   &kp RBKT   &mo RCTL
+                                                           &kp TAB    &kp KP_NUMLOCK  &mo 1        &kp INS
                                                                       &kp PGUP        &kp PGUP
-                                              &kp SPC    &kp SPC                                &kp LSFT   &kp RET
-                                                                         &kp LGUI        &kp PGDN
+                                                &kp SPC    &kp SPC                                 &kp LSFT   &kp RET
+                                                                      &kp LGUI        &kp PGDN
                         >;
                 };
 
