@@ -17,8 +17,8 @@
     &mo LCTRL  &kp GRAV   &kp LALT   &kp LARW   &kp RARW                                               &kp UARW   &kp DARW   &kp LBKT   &kp RBKT   &mo RCTL
                                                            &kp TAB    &kp KP_NUMLOCK  &mo 1 &kp INS
                                                                       &kp PGUP        &kp PGUP
-                                                &kp SPC    &kp LCTL                         &kp LSFT   &kp RET
-                                                                      &kp LGUI   &mo 1
+                                              &kp SPC    &kp SPC                                &kp LSFT   &kp RET
+                                                                         &kp LGUI        &kp PGDN
                         >;
                 };
 
