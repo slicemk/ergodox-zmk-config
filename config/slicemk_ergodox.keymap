@@ -7,25 +7,6 @@
         keymap {
                 compatible = "zmk,keymap";
 
-                // This is the default test layer meant for testing that every
-                // key on your keyboard works. Once you have completed this
-                // basic test, you can delete this first section and layer_0
-                // will become your default layer.
-                layer_test {
-                        bindings = <
-    &bootloader
-    &kp NUM_0  &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6  &kp NUM_0  &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6
-    &kp NUM_0  &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6  &kp NUM_0  &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6
-    &kp NUM_0  &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5                        &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6
-    &kp NUM_0  &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6  &kp NUM_0  &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6
-    &kp NUM_0  &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4                                              &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6
-                                                           &kp NUM_0  &kp NUM_1  &kp NUM_0  &kp NUM_1
-                                                                      &kp NUM_2  &kp NUM_2
-                                                &kp NUM_3  &kp NUM_4                        &kp NUM_3  &kp NUM_4
-                                                                      &kp NUM_5  &kp NUM_5
-                        >;
-                };
-
                 layer_0 {
                         bindings = <
     &bootloader
