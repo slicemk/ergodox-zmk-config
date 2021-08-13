@@ -14,7 +14,7 @@
     &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp NUM_7  &kp M_MUTE &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BSLH
     &kp CAPS   &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SCLN   &kp RET
     &mo LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B      &mo LCMD   &kp M_VOLU &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH   &mo RSHFT
-    &none      &none      &kp LALT   &kp LARW   &kp DARW                                               &kp UARW   &kp RARW   &kp RALT   &none      &none
+    &mo LCTRL  &kp GRAV   &kp LALT   &kp LARW   &kp RARW                                               &kp UARW   &kp DARW   &kp LBKT   &kp RBKT   &mo RCTL
                                                            &kp DEL    &kp HOME   &kp END    &kp INS
                                                                       &kp PGUP   &kp PGDN
                                                 &kp SPC    &kp LCTL                         &kp LSFT   &kp RET
