@@ -25,7 +25,7 @@
                 layer_1 {
                         bindings = <
     &bootloader
-    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_CLR
+    &none      &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &none      &none      &kp F6     &kp F7     &kp F8     &kp F9     &kp F10    &bt BT_CLR
     &none      &kp F1     &kp F2     &kp F3     &kp F4     &none      &none      &none      &none      &none      &none      &none      &none      &out OUT_USB
     &none      &kp F5     &kp F6     &kp F7     &kp F8     &none                            &none      &none      &none      &none      &none      &out OUT_BLE
     &none      &kp F9     &kp F10    &kp F11    &kp F12    &none      &none      &none      &none      &none      &none      &none      &none      &none
@@ -36,21 +36,5 @@
                                                                       &none      &none
                         >;
                 };
-
-                layer_2 {
-                        bindings = <
-    &bootloader
-    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_SEL 0
-    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_SEL 1
-    &none      &none      &none      &none      &none      &none                            &none      &none      &none      &none      &none      &bt BT_SEL 2
-    &none      &none      &none      &kp LBKT   &kp RBKT   &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_SEL 3
-    &none      &none      &none      &none      &none                                                  &none      &none      &none      &none      &bt BT_SEL 4
-                                                           &none      &none      &none      &none
-                                                                      &none      &none
-                                                &none      &none                            &none      &none
-                                                                      &none      &none
-                        >;
-                };
-
         };
 };
