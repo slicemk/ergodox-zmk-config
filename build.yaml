@@ -1,0 +1,3 @@
+include:
+  - board: raytac_mdbt50q_rx
+    shield: slicemk_ergodox_dongle
