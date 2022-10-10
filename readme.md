@@ -7,8 +7,15 @@ options for customization.
 If you have questions, feel free to join the [SliceMK
 Discord](https://discord.gg/FQvyd7BAaA).
 
-You must modify the `board` and `shield` values in `build.yaml` to match the ZMK
-build target.
+# Instructions
+
+- Fork this repository on GitHub.
+- Modify the `board` and `shield` values in `build.yaml` to match the ZMK build
+  target based on your hardware (see below).
+- If you have a dongleless setup, delete `config/slicemk_ergodox_dongle.conf`
+  and create an empty `config/slicemk_ergodox_leftcentral.conf` in its place.
+
+# Board/Shield
 
 Here are some of the common dongle options:
 
