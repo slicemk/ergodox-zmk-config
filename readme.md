@@ -43,3 +43,9 @@ Here are some of the common dongleless options:
 - **SliceMK ErgoDox Wireless 202109 (Green)**
 	- Board `slicemk_ergodox_202109`
 	- Shield `slicemk_ergodox_leftcentral`
+- **SliceMK ErgoDox Wireless 202205 Green**
+	- Board `slicemk_ergodox_202205_green_left`
+	- Shield `slicemk_ergodox_leftcentral`
+- **SliceMK ErgoDox Wireless 202207 Green**
+	- Board `slicemk_ergodox_202207_green_left`
+	- Shield `slicemk_ergodox_leftcentral`
