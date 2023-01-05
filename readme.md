@@ -17,12 +17,19 @@ Discord](https://discord.gg/FQvyd7BAaA).
 
 # Board/Shield
 
+If you are not sure which dongle or PCB version you have, please put your
+dongle/PCB into bootloader mode and check the "Model" value within the
+`INFO_UF2.TXT` file.
+
 Here are some of the common dongle options:
 
-- **Raytac MDBT50Q-RX (Blue)**
+- **Raytac MDBT50Q-RX Green**
+	- Board `raytac_mdbt50q_rx_green`
+	- Shield `slicemk_ergodox_dongle`
+- **Raytac MDBT50Q-RX** (if it does not say "green")
 	- Board `raytac_mdbt50q_rx`
 	- Shield `slicemk_ergodox_dongle`
-- **Nordic nRF52840 Dongle (Blue)**
+- **Nordic nRF52840 Dongle**
 	- Board `nordic_nrf52840_dongle_slicemk`
 	- Shield `slicemk_ergodox_dongle`
 - **SliceMK USB C Dongle MDBT50Q Blue**
@@ -31,7 +38,7 @@ Here are some of the common dongle options:
 
 Here are some of the common dongleless options:
 
-- **SliceMK ErgoDox Wireless 202104 (Blue)**
+- **SliceMK ErgoDox Wireless 202104**
 	- Board `slicemk_ergodox_202104`
 	- Shield `slicemk_ergodox_leftcentral`
 - **SliceMK ErgoDox Wireless 202108 Blue**
@@ -40,7 +47,7 @@ Here are some of the common dongleless options:
 - **SliceMK ErgoDox Wireless 202108 Green**
 	- Board `slicemk_ergodox_202108_green_left`
 	- Shield `slicemk_ergodox_leftcentral`
-- **SliceMK ErgoDox Wireless 202109 (Green)**
+- **SliceMK ErgoDox Wireless 202109**
 	- Board `slicemk_ergodox_202109`
 	- Shield `slicemk_ergodox_leftcentral`
 - **SliceMK ErgoDox Wireless 202205 Green**
