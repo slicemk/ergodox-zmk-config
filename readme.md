@@ -7,7 +7,7 @@ options for customization.
 If you have questions, feel free to join the [SliceMK
 Discord](https://discord.gg/FQvyd7BAaA).
 
-# Instructions
+# Getting Started
 
 - Fork this repository on GitHub.
 - Modify the `board` and `shield` values in `build.yaml` to match the ZMK build
@@ -17,8 +17,8 @@ Discord](https://discord.gg/FQvyd7BAaA).
 
 - To modify your keymap, edit `config/slicemk_ergodox.keymap`.
 - If you are using a dongle, add custom ZMK configuration options to
-  `config/slicemk_ergodox_dongle.conf`. If you are not using a dongle, that
-  should go in `config/slicemk_ergodox_leftcentral.conf`.
+  `config/slicemk_ergodox_dongle.conf`. If you are not using a dongle, custom
+  options should instead go in `config/slicemk_ergodox_leftcentral.conf`.
 - To use with a custom ZMK fork, edit `config/west.yml`.
 
 # Board/Shield
@@ -26,6 +26,10 @@ Discord](https://discord.gg/FQvyd7BAaA).
 If you are not sure which dongle or PCB version you have, please put your
 dongle/PCB into bootloader mode and check the "Model" value within the
 `INFO_UF2.TXT` file.
+
+GitHub Actions will only build the firmware for your central. Please download
+the firmware for your peripheral(s)
+[here](https://www.slicemk.com/pages/ergodox-wireless-peripheral).
 
 Here are some of the common dongle options:
 
