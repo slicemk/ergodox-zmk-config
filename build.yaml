@@ -1,3 +1,8 @@
+# For the standard ErgoDox Wireless dongle setup with the latest Raytac "green"
+# dongle, you do not need to modify this file. If you are using a different
+# dongle such as the older Raytac "blue" dongle, you will need to modify
+# "board". For a dongleless setup, you will need to modify both "board" and
+# "shield". Please see "readme.md" for more details.
 include:
-  - board: raytac_mdbt50q_rx_CHANGE_ME
-    shield: slicemk_ergodox_dongle_CHANGE_ME
+  - board: raytac_mdbt50q_rx_green
+    shield: slicemk_ergodox_dongle
