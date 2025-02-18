@@ -1,7 +1,10 @@
 
-![{4C6F205D-E0CE-4B9F-9FAA-1B1256D72193}](https://github.com/user-attachments/assets/0e00db50-1b34-4350-bea1-87897d331666)
 
+![{E6A9F86C-0659-4C14-B95C-6087711F1A51}](https://github.com/user-attachments/assets/0489f609-f672-41d9-8987-da79f965bec3)
 
+![{CD5DC116-4F0F-4206-A21B-5A698F6201C7}](https://github.com/user-attachments/assets/fd342525-1254-48b5-8c76-14ed1ee8b3a6)
+
+2번,3번,4번 레이어 빈칸으로
 
 
 This repository contains the default ZMK user configuration for the [ErgoDox
