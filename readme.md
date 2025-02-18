@@ -1,3 +1,9 @@
+
+![{4C6F205D-E0CE-4B9F-9FAA-1B1256D72193}](https://github.com/user-attachments/assets/0e00db50-1b34-4350-bea1-87897d331666)
+
+
+
+
 This repository contains the default ZMK user configuration for the [ErgoDox
 Wireless](https://www.slicemk.com/pages/ergodox-wireless) keyboard. While the
 [SliceMK Keymap Configurator](https://config.slicemk.com/) is recommended for
