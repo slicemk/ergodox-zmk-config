@@ -33,10 +33,13 @@ the firmware for your peripheral(s)
 
 Here are some of the common dongle options:
 
+- **Raytac MDBT50Q-CX Blue**
+	- Board `raytac_mdbt50q_cx_blue`
+	- Shield `slicemk_ergodox_dongle`
 - **Raytac MDBT50Q-RX Green**
 	- Board `raytac_mdbt50q_rx_green`
 	- Shield `slicemk_ergodox_dongle`
-- **Raytac MDBT50Q-RX** (if it does not say "green")
+- **Raytac MDBT50Q-RX** (if model name does not include "Green")
 	- Board `raytac_mdbt50q_rx`
 	- Shield `slicemk_ergodox_dongle`
 - **Nordic nRF52840 Dongle**
