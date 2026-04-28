@@ -15,6 +15,7 @@
 		compatible = "zmk,keymap";
 
 		layer_0 {
+			display-name = "main";
 			bindings = <
 				&bootloader
 				&kp GRAVE      &kp NUMBER_1    &kp NUMBER_2 &kp NUMBER_3   &kp NUMBER_4   &kp NUMBER_5     &kp PRINTSCREEN   &none           &kp NUMBER_6 &kp NUMBER_7   &kp NUMBER_8    &kp NUMBER_9  &kp NUMBER_0    &kp K_APPLICATION
@@ -29,6 +30,7 @@
 		};
 
 		layer_1 {
+			display-name = "fn";
 			bindings = <
 				&bootloader
 				&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none &none &none &none &none   &none   &none   &none   &bootloader
@@ -43,6 +45,7 @@
 		};
 
 		layer_2 {
+			display-name = "symb";
 			bindings = <
 				&bootloader
 				&none &none &none &none            &none             &none             &none          &none            &none &none          &none           &none &none &none
@@ -57,6 +60,7 @@
 		};
 
 		layer_3 {
+			display-name = "nmpad";
 			bindings = <
 				&bootloader
 				&none   &none     &none        &none          &none        &none &none                &none                &none     &none          &none           &none        &none        &none
@@ -71,6 +75,7 @@
 		};
 
 		layer_4 {
+			display-name = "mouse";
 			bindings = <
 				&bootloader
 				&none &none &none &none &none &none &none &none &none          &none           &none          &none           &none &none
